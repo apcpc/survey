@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $config['base_url'] = '';
-
+$config['time_zone']=date_default_timezone_set('Asia/shanghai');
 /*
 |--------------------------------------------------------------------------
 | Index File

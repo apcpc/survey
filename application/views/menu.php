@@ -10,12 +10,19 @@
         <li class="layui-nav-item layui-nav-itemed">
             <a href="javascript:;">模版控件管理</a>
             <dl class="layui-nav-child">
-                <dd class="layui-this"><a href="javascript:;">控件列表</a></dd>
-                <dd><a href="javascript:;">添加控件</a></dd>
+                <dd><a href="<?php echo base_url()."index.php/widget/index"; ?>">控件列表</a></dd>
+                <dd><a href="<?php echo base_url()."index.php/widget/add"; ?>">添加控件</a></dd>
             </dl>
         </li>
-        <li class="layui-nav-item"><a href="javascript:;">调查卷模版</a></li>
-        <li class="layui-nav-item"><a href="javascript:;">用户模版管理</a></li>
+        <li class="layui-nav-item"><a href="javascript:;">调查卷模版</a>
+            <dl class="layui-nav-child">
+                <dd><a href="<?php echo base_url()."index.php/template/index"; ?>">模版列表</a></dd>
+                <dd><a href="<?php echo base_url()."index.php/template/add"; ?>">添加模版</a></dd>
+            </dl>
+        </li>
+        <li class="layui-nav-item"><a href="javascript:;">用户模版管理</a>
+
+        </li>
     </ul>
 </div>
 <!-- 注意：如果你直接复制所有代码到本地，上述js路径需要改成你本地的 -->

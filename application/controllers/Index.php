@@ -8,7 +8,7 @@ class Index extends CI_Controller {
     }
     public function index() {
 		$this->load->view('head');
-		$this->load->view('admin/widget/list');
+		$this->load->view('admin/widget/index');
 		$this->load->view('footer');
 	}
 }
